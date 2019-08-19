@@ -1,6 +1,6 @@
 {
-  "name": "v-money",
-  "version": "0.8.1",
+  "name": "@carlos.fiori/v-money",
+  "version": "0.9.6",
   "description": "Vue currency input/directive mask",
   "main": "dist/v-money.js",
   "scripts": {
@@ -32,6 +32,16 @@
     }
   ],
   "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/)",
+  "contributors": [
+    "Carlos Fiori <carlos.fiori@gmail.com> (https://github.com/carlosfiori)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosfiori/v-money.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosfiori/v-money/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-jest": "^21.2.0",
@@ -39,6 +49,11 @@
     "jest": "^21.2.1",
     "npm-check-updates": "^2.13.0",
     "size-limit": "^0.11.6",
-    "vuetify": "^0.16.7"
+    "vuetify": "^0.16.7",
+    "vue-cli": "2.8.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
   }
 }

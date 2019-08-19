@@ -18,7 +18,7 @@ export default function (el, binding) {
 
   el.oninput = function () {
     var positionFromEnd = el.value.length - el.selectionEnd
-    el.value = format(el.value, opt)
+    el.value = format(el.value || opt.initialValue, opt)
     positionFromEnd = Math.max(positionFromEnd, opt.suffix.length) // right
     positionFromEnd = el.value.length - positionFromEnd
     positionFromEnd = Math.max(positionFromEnd, opt.prefix.length + 1) // left
